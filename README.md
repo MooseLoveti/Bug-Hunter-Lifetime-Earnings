@@ -1,5 +1,5 @@
 # Bug Hunter Lifetime Earnings
-
+FlaskとReactで作成　グラフ描画とCSSはCodeXを使用
 ## プロジェクト概要
 - Wordfenceの WordPress Vulnerability Database + WordPress.org Plugin API を利用し、研究者名ごとに推定報奨金を集計。
 - Flask バックエンドが外部APIを呼び、`name` クエリで絞り込み、推定金額・参照URLなどページ描画に必要な情報を返却。
