@@ -1,4 +1,4 @@
-# Bug Hunter Lifetime Earnings Simulator / Ranking
+# Bug Hunter Lifetime Earnings
 
 ## プロジェクト概要
 - Wordfenceの WordPress Vulnerability Database + WordPress.org Plugin API を利用し、研究者名ごとに推定報奨金を集計。
