@@ -26,6 +26,11 @@ python -m venv .venv
 pip install -r ../requirements.txt
 python app.py
 ```
+※「このシステムではスクリプトの実行が無効になっているため～」といったエラーが発生した場合、次を実行
+
+```bash
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+```
 
 ### 2) フロントエンド
 ```bash
