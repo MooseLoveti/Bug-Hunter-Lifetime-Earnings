@@ -48,7 +48,7 @@ npm run dev                 # デフォルト http://127.0.0.1:5173/
 - CWE ID からカテゴリを決定 (`services/bounty.py` の `CWE_TO_CATEGORY`)。
 - 脆弱性タイトルから認証レベルを推定（例: unauthenticated -> No Authentication, contributor+ -> Mid-Level Authentication）。
 - アクティブインストール数レンジ + カテゴリ + 認証レベルを `calculate/bountydata.txt` と照合し報奨金を決定。条件が揃わない場合は0ドル。
-- 研究者名が複数含まれる場合、ターゲット名と一致したもののみ加算します。
+- 研究者名が複数含まれる場合、ターゲット名と一致したもののみ加算。
 
 ## ここ直したいな～リスト
 - 外部 API 依存でレスポンスが遅い。
